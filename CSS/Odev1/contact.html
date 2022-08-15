@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <style>
+         body {
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);   
+        }
+        ul {
+            list-style-type: none;
+            margin-left: 70%;
+            margin-top: 0%;
+            padding: 0;
+            overflow: hidden;
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+            width: 30%;
+            align-items: center;
+            font-family: cursive;
+            font-size: 26px;
+            border: 0ch;
+            border-radius: 30px;
+            
+        }   
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color:  #2531CF;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #14C9C3;
+            color: antiquewhite;
+        }
+       
+        input[type=text] {
+            width: 30%;
+            padding: 8px 12px;
+            margin-left: 34%;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+       .card {
+           display: flex;
+           flex-direction: column;
+        }
+       textarea {
+           width: 400px;
+           height: 100px;
+           margin: 5px 34%;
+       }
+       .card label {
+           margin-left: 34%;
+       }
+       button {
+           margin-left: 36%;
+           padding: 4px 3px;
+           border: 2px solid ;
+           border-radius: 15px;
+           background-color: darkblue;
+           color: white;
+           width: 80px;
+           height: auto;
+           font-family: monospace;
+           font-size: 14px;
+       }
+        button:hover {
+            background-color: rgb(132, 131, 224);
+        }
+        .form table {
+            margin-left: 33%;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        .form table th {
+            border-right: 1px solid black;
+
+        }
+
+    </style>
+</head>
+<body>
+        <!--Navbar Başlangıç-->
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="about-us.html">Hakkımızda</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+        </ul>
+        <!--Navbar Sonu-->
+        <div class="form">
+            <table>
+                <tr>
+                    <th>Adres</th>
+                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing.</td>
+                </tr>
+                <tr>
+                    <th>Mail</th>
+                    <td>loremipsum@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>Tel</th>
+                    <td>+905400000000</td>
+                </tr>
+            </table>
+        </div>
+        <div >
+           <form>
+               <div class="card">
+               <label for="isim">İsim</label>
+               <input type="text" id="isim">
+               <label for="soyisim">Soyisim</label>
+               <input type="text" id="soyisim">
+               <label for="soyisim">Telefon</label>
+               <input type="text" id="telefon">
+               <label for="soyisim">Mail</label>
+               <input type="text" id="mail">
+               <label for="textarea">Bize Ulaşın</label>
+               <textarea>...</textarea>
+            </div>
+            <button>Submit</button>
+           </form>
+
+        </div>
+
+</body>
+</html>
