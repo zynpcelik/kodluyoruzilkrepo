@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            margin: 0;
+            padding: 0;
+        }
+         .image {
+            display: flex;
+            justify-content: center;
+        }
+        img {
+            width: 600px;
+        }
+        .search {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(241, 238, 238);
+            margin: 4px  64px;
+
+        }
+        .search-bar {
+            display: flex;
+            flex-direction: column;
+        }
+        .info {
+            display: flex;
+            justify-content: center;
+        }
+        .card1, .card2, .card3 {
+            display: flex;
+            flex-direction: column;
+            padding: 6px 12px;
+            height: 78px;
+            text-align: center;
+        }
+        .card1 {
+            background-color: #7EE5DA;
+            width: 400px;
+            
+        }
+        .card2 {
+            background-color: #70CCC2;
+            width: 150px;
+            font-size: small;
+            
+        }
+        .card3 {
+            background-color: #62B3AA;
+            width: 600px;
+            font-size: small;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="image">
+        <img src="https://i2.cdn.turner.com/money/dam/assets/150831165128-google-09-1998-to-10-1998-780x439.png" alt="googlelogo">
+    </div>
+    <div class="search">
+        <div class="search-bar">
+            <p style="align-self: center;">Search the web using Google!</p>
+            <input type="search" style="width:400px;">
+            <div style="align-self: center;">
+                <button>Google Search</button>
+                <button>I'm feeling lucky</button>
+            </div>
+        </div>
+    </div>
+    <div class="info">
+        <div class="card1">
+            <p>Special Searches</p>
+            <a href="">Standford Search</a>
+            <a href="">Linux Search</a>
+        </div>
+        <div class="card2">
+            <a href="">Help!</a>
+            <a href="">About Google!</a>
+            <a href="">Company Info</a>
+            <a href="">Google! Logos</a>
+        </div>
+        <div class="card3">
+            <p>Get Google!</p>
+            <p>updates monthly:</p>
+            <input type="text" value="your e-mail" style="width: 200px;align-self: center;">
+            <div>
+                <button>Subscribe</button>
+                <a href=""><b>Archive</b></a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p style="font-size: small; text-align:center;">Copyright ©1998 Google Inc.</p>
+    </div>
+</body>
+</html>
