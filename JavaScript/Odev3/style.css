@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f8;
+  font-family: "Zilla Slab", serif;
+}
+h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: #ff6a23;
+}
+
+.title {
+  font-family: "Great Vibes", cursive;
+  font-size: 24px;
+  text-align: center;
+  color: #ff6a23;
+  border-bottom: 1px solid black;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+}
+.menu {
+  margin-top: 20px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+.btn-item {
+  margin-left: 15px;
+}
+.img-div {
+  display: flex;
+}
+.card-img-top {
+  width: 110px;
+  margin:auto;
+  padding: 5px;
+  justify-items: center;
+  border-radius: 10px;
+}
+.card-text {
+  display: flex;
+  justify-content: center;
+}
+#list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
