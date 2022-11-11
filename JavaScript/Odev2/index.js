@@ -1,26 +1,16 @@
-/* const alertTask = document.querySelector("#alertDiv")
-const alertAppear = `
-<div class="alert alert-warning alert-dismissible fade show" role="alert">
-    <strong>Eksik Bilgi!</strong> LÜtfen bir yapılacak ekleyiniz.
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
-` */
+
 
 function newElement(event) {
     event.preventDefault()
     let duty = document.querySelector("#task")
     if (duty.value) {
         addList(duty.value)
+        $('.success').toast('show')
         duty.value = ""
     } else if (duty.value === "") {
-       /*  $(document).ready(function(){
-            $("#alertToast").click(function(){
-              $('.toast').toast('show');
-            });
-          }); */
+        $('.error').toast('show')
     }
-}/* 
-const li = `` */
+}
 const addList = (item) => {
     let ulDOM = document.querySelector("#list")
     const liDOM = `
